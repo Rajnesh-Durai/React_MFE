@@ -14,8 +14,8 @@ const Navbar = () => {
             <img src={logo} alt="logo" />
           </div>
           <div className="navcolumns">
-            <Link to='/home' className="navbaritems">Home</Link>
-            <Link to ='/shop' className="navbaritems">Shop</Link>
+            <Link to='/home' className="navbaritems link">Home</Link>
+            <Link to ='/shop' className="navbaritems link">Shop</Link>
             <div className="navbaritems">About</div>
             <div className="navbaritems">Login</div>
             <div className="navbaritems signup">Sign-up</div>
