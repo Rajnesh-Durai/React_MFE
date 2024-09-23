@@ -1,0 +1,62 @@
+
+.logo{
+  font-family: 'Caveat', cursive;
+  font-size: 44px;
+  font-weight: 600;
+}
+.navbar{
+  width: 100%;
+  height: 82px;
+  background-color: #e3e6f3;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.06);
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 5;
+}
+
+.navbarflex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 14px;
+}
+.navcolumns{
+  display:inline-flex;
+  font-size: 24px;
+  font-weight: 600;
+}
+.navbaritems{
+  margin-left: 20px;
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .4s;
+  border-radius: 10px;
+}
+.icon {
+  color: #000000;
+  transition: color 0.3s ease; /* Add a smooth transition effect */
+}
+
+.signup{
+  border:solid 2px #000000;
+  padding:0px;
+}
+.icon:hover, .signup:hover,.navbaritems:hover,
+.navbaritems:active {
+  color: #088178; /* Change the color on hover */
+  border-color: #088178;
+  transform: scale(1.09);
+}
+
+Link{
+  text-decoration: none;
+  color: #000000;
+}
